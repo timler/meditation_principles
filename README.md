@@ -67,6 +67,27 @@ rm ~/Library/Scripts/meditation_notifier.py
 rm ~/Library/LaunchAgents/com.dagmartimler.meditation_notifier.plist
 ```
 
+## How to change the schedule
+
+Edit the `com.dagmartimler.meditation_notifier.plist` file and change the `StartCalendarInterval` to your desired schedule.
+
+By default, the script runs every Monday at 9am, which is specified as:
+```xml
+<key>StartCalendarInterval</key>
+<dict>
+    <key>Weekday</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+</dict>
+```
+
+Examples:
+- Every Friday at 9am: change `Weekday` to `5`
+- Every day at 5pm: change `Weekday` to `0` and `Hour` to `17`
+
 ## Troubleshooting
 
 Check the logs in `/tmp/meditationnotifier.log` and `/tmp/meditationnotifier.error.log` for more information.
