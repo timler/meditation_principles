@@ -10,6 +10,7 @@ A simple MacOS LaunchAgent Python script that shows you a popup with a new life 
 
 ## Requirements
 - macOS (any recent version)
+- Python 3
 
 ## Installation
 1. Update the `USERNAME` and `PYTHON_PATH` in the `com.dagmartimler.meditationnotifier.plist` file:
