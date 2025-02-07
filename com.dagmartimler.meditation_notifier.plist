@@ -6,8 +6,8 @@
     <string>com.dagmartimler.meditation_notifier</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/python3</string>
-        <string>/Users/dagmartimler/Library/Scripts/meditation_notifier.py</string>
+        <string><PYTHON_PATH></string>
+        <string>/Users/<USERNAME>/Library/Scripts/meditation_notifier.py</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
