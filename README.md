@@ -1,6 +1,6 @@
-# Meditation Principles Notifier
+# Meditation on Principles Notifier
 
-A simple Mac application that shows you a new meditation/life principle every week. The principles are displayed as a popup notification every Monday at 9am.
+A simple MacOS LaunchAgent Python script that shows you a popup with a new life principle every Monday morning at 9am. The principles are sourced from [Nabeel S. Qureshi's principles](https://nabeelqu.co/principles).
 
 ## What it does
 - Shows a weekly popup with a new principle/insight
@@ -74,9 +74,6 @@ Check the logs in `/tmp/meditationnotifier.log` and `/tmp/meditationnotifier.err
 tail -f /tmp/meditationnotifier.log
 tail -f /tmp/meditationnotifier.error.log
 ```
-
-## Credits
-The principles are sourced from [Nabeel S. Qureshi's principles](https://nabeelqu.co/principles)
 
 ## How it works
 - The script keeps track of your start date
